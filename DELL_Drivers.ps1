@@ -1,4 +1,4 @@
-﻿#Requires -Version 5.1
+#Requires -Version 5.1
 
 <#
 .SYNOPSIS
@@ -26,13 +26,13 @@
 # -------------------------------------------------------------------------
 
 $Packages = [ordered]@{
-    "Latitude 5550" = "C:\DellDrivers\Latitude_5550"
-    "Latitude 5540" = "C:\DellDrivers\Latitude_5540"
-    "Latitude 5530" = "C:\DellDrivers\Latitude_5530"
-    "Latitude 5520" = "C:\DellDrivers\Latitude_5520"
+    "Latitude 5550" = "C:\Temp\DELL_Drivers\Latitude-5550"
+    "Latitude 5540" = "C:\Temp\DELL_Drivers\Latitude-5540"
+    "Latitude 5530" = "C:\Temp\DELL_Drivers\Latitude-5530"
+    "Latitude 5520" = "C:\Temp\DELL_Drivers\Latitude-5520"
 }
 
-$OutputFile = "C:\DellDrivers\Comparatif_Drivers_Latitude.xlsx"
+$OutputFile = "C:\Temp\DELL_Drivers\Comparatif_Drivers_Latitude.xlsx"
 
 # -------------------------------------------------------------------------
 # VERIFICATION DU MODULE IMPORTEXCEL
